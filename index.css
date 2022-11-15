@@ -131,6 +131,12 @@ i{
     margin-top: 30px;
    /* background-color: blanchedalmond; */
 }
+.imga{
+    width: 350px;
+    margin-left: 130px;
+    box-shadow: 0 0 20px black;
+    border-radius: 50px;
+}
 
 .btn2 {
     text-decoration: none;
@@ -368,6 +374,10 @@ p{
   
    
 }
+.imga{
+    width: 300px;
+    margin-left: 30px;
+}
 .btn2{
     display: none;
 }
@@ -414,6 +424,10 @@ p{
     font-size: 40px;
     margin-left: 30%;
      color: red;
+ }
+ .skill{
+    font-size: 30px;
+    text-shadow: 0 0 10px black;
  }
 
 /* ---------project----------- */
