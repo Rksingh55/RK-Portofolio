@@ -3,18 +3,45 @@
     padding: 0px;
 }
 /* ------------------------------nav------------------------ */
-
-
- /* .mainbody{
-    background-color:rgb(202, 138, 138);
-    border-radius: 15px;
-    width: 30%;
-    box-shadow: 0 0 20px black;
-    margin-left: 20%;
+.uli{
+    margin-left: 70%;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
     
-   
-}  */
+}
 
+.navbar{
+    background-color: white;
+    border-bottom: 2px solid gold;
+}
+.navbar-brand{
+    font-weight: bold;
+    text-shadow: 0 0 3px black;
+   
+}
+
+
+
+.nav ul li {
+   
+    text-decoration: none;
+    word-spacing: 4px;
+    position: relative;
+}
+.nav ul li a::after {
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    transition: 0.7s;
+}
+
+.nav ul li a:hover::after {
+    width: 100%;
+}
 
 
 /* ..............................home........................ */
@@ -32,7 +59,7 @@
 }
 
 .intro1{
-    margin-top: 80px;
+    margin-top: 100px;
     width: 50%;
     float: left;
    
@@ -46,7 +73,7 @@
 }
 .img{
 width: 500px;
-margin-top: 30px;
+margin-top: 80px;
 
 }
 
@@ -82,22 +109,46 @@ h5 a{
 
 .btn1 {
     text-decoration: none;
-    background-color:red;
+    background-color:white;
     border-radius: 10px;
     padding: 4px;
-    margin-left: 33%;
-    border: 2px solid white;
+    margin-left: 23%;
     box-shadow: 0 0 10px black;
+    border: 2px solid red;
 }
 
-.btn1 a {
+.btn1  a {
     text-decoration: none;
-    color: white;
+    color: black;
 
+
+}
+.btnc{
+    border: 2px solid red;
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+    padding: 4px;
+    
+    box-shadow: 0 0 10px black;
+    margin-left: 7%;
+}
+.btnc a{
+    text-decoration: none;
+    color:black;
 
 }
 .btn1:hover{
-    border: 2px solid red;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    
+}
+.btnc:hover{
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+
 }
 .img1{
     height: 350px;
@@ -347,33 +398,45 @@ p{
     text-decoration: none;
     color: black;
 }
-.count{
+/* .count{
     color: black;
     margin-left: 15px;
-}
-.head{
+}*/
+ .head{
     color: black;
-}
-.cc{
-    box-shadow: 0 0 10px white;
-    
+} 
+#count{
+    color: black;
+    font-size: 35px;
+    margin-left: 30px;
+    text-shadow: 0 0 10px white;
 }
 /* ---------------------------responsive for phone--------- */
 @media only screen and (max-width: 400px) {
    .mainbody{
     overflow: hidden;
    }
+  
    .banner1{
     position: fixed;
     
    }
+   .navbar{
+    background-color: white;
+    border-bottom: 2px solid gold;
+}
+.navbar-brand{
+    font-weight: bold;
+    text-shadow: 0 0 3px black;
+   
+}
 
    .banner {
     height: 700px;
    }
 
     .intro1{
-        margin-top: 80px;
+        margin-top: 85px;
         width: 100%;
         float: left;
      
@@ -393,7 +456,7 @@ p{
             margin-left: 22%;
         }
         .btn1{
-            margin-left: 110px;
+            margin-left: 55px;
         }
         .btn{
             display: none;
@@ -561,4 +624,9 @@ span {
 .icon2 i{
     color: red;
     text-shadow: 2px 2px 2px  white;
+}
+
+.m1{
+    background-color: black;
+    height: 20px;
 }
