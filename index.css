@@ -3,13 +3,17 @@
     padding: 0px;
 }
 /* ------------------------------nav------------------------ */
-.nav-link a{
-    color: black;
-}
 
 
-
-
+ /* .mainbody{
+    background-color:rgb(202, 138, 138);
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 0 0 20px black;
+    margin-left: 20%;
+    
+   
+}  */
 
 
 
@@ -17,11 +21,12 @@
 
 .banner {
     background-image: url(b3.jpg);
-    height: 530px;
+    height: 560px;
    
 }
 .banner1 {
-    background-image: url(b3.jpg);
+    /* background-image: url(b3.jpg); */
+    color: white;
     
   
 }
@@ -41,6 +46,8 @@
 }
 .img{
 width: 500px;
+margin-top: 30px;
+
 }
 
 p1{
@@ -78,7 +85,7 @@ h5 a{
     background-color:red;
     border-radius: 10px;
     padding: 4px;
-    margin-left: 30%;
+    margin-left: 33%;
     border: 2px solid white;
     box-shadow: 0 0 10px black;
 }
@@ -132,10 +139,11 @@ i{
    /* background-color: blanchedalmond; */
 }
 .imga{
-    width: 350px;
+    width: 310px;
     margin-left: 130px;
     box-shadow: 0 0 20px black;
     border-radius: 50px;
+    margin-top: 15px;
 }
 
 .btn2 {
@@ -145,6 +153,7 @@ i{
     padding: 4px; 
     border: 2px solid white;
     box-shadow: 0 0 10px black;
+    margin-left: 20%;
 }
 
 .btn2 a {
@@ -159,26 +168,37 @@ i{
 }
 .fronted{
     background-image: url(b3.jpg);
-    width: 50%;
+    width: 40%;
     border-radius: 40px;
     float: left;
     height: 350px;
     box-shadow: 0 0 10px black;
+    margin-left:50px;
 }
 .backened{
     background-image: url(b3.jpg);
     height: 350px;
-    width: 50%;
+    width: 40%;
     border-radius: 40px;
     float: left;
     box-shadow: 0 0 10px black;
+    margin-left: 80px;
+
 }
 .lt{
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-shadow: 0 0 5px black;
+   
 }
+
+.skill1{
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+ }
+
 .sk{
    margin-left: 40%;
     color: red;
@@ -206,7 +226,7 @@ p{
 }
 
 .p1{
-    width: 30%;
+    width: 28%;
     background-image: url(b3.jpg);
     height: 300px;
     float: left;
@@ -216,24 +236,27 @@ p{
     
 }
 .p2{
-    width: 30%;
+    width: 28%;
     height: 300px;
     float: left;
     /* background-color: rgb(85, 97, 97); */
     background-image: url(b3.jpg);
     border-radius: 40px;
     box-shadow: 0 0 10px black;
+    margin-left: 45px;
 }
 .p3{
 
-    width: 30%;
+    width: 28%;
     height: 300px;
     float: left;
     /* background-color: rgb(21, 26, 26); */
     background-image: url(b3.jpg);
     border-radius: 40px;
     box-shadow: 0 0 10px black;
+    margin-left: 45px;
 }
+
 .is{
     border-radius: 40px;
     margin-left: 35px;
@@ -242,7 +265,7 @@ p{
     red;
 }
 .pp{
-    margin-left: 30%;
+    margin-left: 37%;
     color: red;
 }
 .mp{
@@ -287,15 +310,16 @@ p{
 }
 .ss1{
     color: red;
-    margin-left: 30%
+    margin-left: 35%
 }
 
 .card{
     background-image: url(b3.jpg);
+ 
 }
 .card-body{
     box-shadow: 0 0 10px black;
-    border-radius: 20px;
+    border-radius: 10px;
    
 }
 .card-title{
@@ -323,14 +347,31 @@ p{
     text-decoration: none;
     color: black;
 }
+.count{
+    color: black;
+    margin-left: 15px;
+}
+.head{
+    color: black;
+}
+.cc{
+    box-shadow: 0 0 10px white;
+    
+}
 /* ---------------------------responsive for phone--------- */
 @media only screen and (max-width: 400px) {
    .mainbody{
     overflow: hidden;
    }
+   .banner1{
+    position: fixed;
+    
+   }
+
    .banner {
     height: 700px;
-}
+   }
+
     .intro1{
         margin-top: 80px;
         width: 100%;
@@ -412,6 +453,7 @@ p{
     border-radius: 40px;
     float: left;
     height: 350px;
+    margin-left: 5px;
 }
 .backened{
     background-image: url(b3.jpg);
@@ -419,6 +461,8 @@ p{
     width: 100%;
     border-radius: 40px;
     float: left;
+    margin-left: 5px;
+    margin-top: 20px;
 }
 .sk{
     font-size: 40px;
@@ -427,7 +471,11 @@ p{
  }
  .skill{
     font-size: 30px;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 5px black;
+ }
+ .skill1{
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
  }
 
 /* ---------project----------- */
@@ -441,15 +489,19 @@ p{
     width: 100%;
     height: 300px;
     float: left;
+    margin-left: 5px;
 }
 .p2{
     width: 100%;
     height: 300px;
     float: left;
+    margin-top: 25px;
+    margin-left: 5px;
 
 }
 .p3{
-
+     margin-top: 25px;
+     margin-left: 5px;
     width:100%;
     height: 300px;
     float: left;
