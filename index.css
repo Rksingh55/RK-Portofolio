@@ -179,19 +179,20 @@ i{
 }
 .ab2{
     color: black;
+    justify-content: center;
    
 }
 .intro3{
   
     width: 50%;
     float: left;
-   /* background-color: aquamarine; */
+  
 }
 .intro4{
     float: left;
     width: 50%;
     margin-top: 30px;
-   /* background-color: blanchedalmond; */
+   
 }
 .imga{
     width: 310px;
@@ -219,28 +220,34 @@ i{
 .skills{
     height: 500px;
     background-color: white;
-    /* background-image: url(b3.jpg); */
+   
+}
+span{
+    font-weight: bold;
 }
 .fronted{
-    /* background-image: url(b3.jpg); */
-    
-    background-color: white;
+   
+        
+    background:linear-gradient(rgb(129, 127, 127),white);
+    /* border: 1px solid black; */
     width: 40%;
-    border-radius: 40px;
+    border-radius: 60px 60px 0 0;
     float: left;
     height: 350px;
-    box-shadow: 0 0 10px black;
+    /* box-shadow: 0 0 5px black; */
     margin-left:50px;
 }
 .backened{
-    /* background-image: url(b3.jpg); */
+  
     
-    background-color: white;
+    background:linear-gradient(rgb(129, 127, 127),white);
     height: 350px;
     width: 40%;
-    border-radius: 40px;
+    border-radius: 60px 60px 0 0 ;
     float: left;
-    box-shadow: 0 0 10px black;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5
+    px black;
     margin-left: 80px;
 
 }
@@ -371,7 +378,7 @@ p{
 
 .services{
     background-color: white;
-    height: 500px;
+    height: 450px;
 }
 .services1{
     width: 100%;
@@ -417,7 +424,7 @@ p{
     background-color: white;
     height: 350px;
     border-radius: 60px 60px 0 0;
-    box-shadow: 0  0 20px  black;
+    /* box-shadow: 0  0 20px  black; */
 ;
 }
 
@@ -470,7 +477,6 @@ p{
    background-color: white;
     background-color:white;
     height: 400px;
-    box-shadow: 0 0 20px black;
     border-radius: 60px 60px 0 0;
 }
 .con{
@@ -544,15 +550,16 @@ text-shadow: 0 0 7px black;
 .c1{
     width: 45%;
     height: 280px;
-    background-color: white;
+    background:linear-gradient(yellow, white);
     border-radius: 60px 60px 0 0;
-    overflow: hidden;
     float: left;
     margin-left: 30px;
 }
 .c2{
+   
     width: 45%;
-    height: 400px;
+    border-radius: 60px 60px 0 0;
+    height: 280px;
     color: blue;
     float: left;
     margin-left: 20px;
@@ -574,11 +581,13 @@ font-weight: bold;
 .form input{
 width: 400px;
 height: 40px;
+padding: 20px;
 border-radius: 5px;
 box-shadow: 0 0 7px black;
 border: 2px solid black;
 }
 .form textarea{
+    padding: 20px;
     width: 400px;
     border: 2px solid black;
     border-radius: 10px;
@@ -654,6 +663,10 @@ border: 2px solid black;
   
    
 }
+
+.nav ul li a:hover::after {
+    width: 50%;
+}
 .imga{
     width: 300px;
     margin-left: 30px;
@@ -727,47 +740,47 @@ border: 2px solid black;
 }
 
 .p1{
-    width: 100%;
+    width: 90%;
     height: 300px;
     float: left;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .p2{
-    width: 100%;
+    width: 90%;
     height: 300px;
     float: left;
     margin-top: 25px;
-    margin-left: 5px;
+    margin-left: 15px;
 
 }
 .p3{
      margin-top: 25px;
-     margin-left: 5px;
-    width:100%;
+     margin-left: 15px;
+    width:90%;
     height: 300px;
     float: left;
     
 }
 
 .p11{
-    width: 100%;
-    height: 300px;
+    width: 80%;
+    height: 220px;
     float: left;
-    margin-left: 5px;
+    margin-left: 30px;
 }
 .p22{
-    width: 100%;
-    height: 300px;
+    width: 80%;
+    height: 220px;
     float: left;
     margin-top: 25px;
-    margin-left: 5px;
+    margin-left: 30px;
 
 }
 .p33{
      margin-top: 25px;
-     margin-left: 5px;
-    width:100%;
-    height: 300px;
+     margin-left: 30px;
+    width:80%;
+    height: 220px;
     float: left;
     
 }
@@ -782,7 +795,7 @@ border: 2px solid black;
 }
 .services{
     background-color: white;
-    height: 500px;
+    height: 430px;
 }
 
 .ss1{
@@ -791,9 +804,9 @@ border: 2px solid black;
 }
 .c1{
     width: 100%;
-    height: 250px;
+    height: 280px;
     margin-left: 2px;
-    /* background-color: red; */
+    
   
 }
 
@@ -817,29 +830,25 @@ border: 2px solid black;
 }
 .con{
  
-
-    height: 1200px; 
-    background-color: white
-    ;
-    box-shadow: 0  0 20px black
-    ;
-   
+background:none;
+    height: 900px; 
+    box-shadow: none;
 
 }
 .contacthead{
-    background-color:white;
-    /* box-shadow: 0 0 20px black; */
+ 
+   box-shadow: none;
     height: 720px;
 }
 
 .cc3{
-    font-size: 70px;
-margin-left: 130px;
+    font-size: 59px;
+margin-left: 100px;
 
 }
 .cc{
   
-    font-size: 25px;
+    font-size: 20px;
 }
 .cm{
     margin-left: 13%;
@@ -850,12 +859,13 @@ margin-left: 130px;
  }
 .cc1{
    
-    font-size: 20px;
+    font-size: 15px;
 }
 .letstalk{
 
      font-size: 25px;
-     margin-left: 15px;
+     margin-left: 25px;
+     color: red;
      
  }
 }
