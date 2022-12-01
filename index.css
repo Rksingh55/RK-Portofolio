@@ -12,6 +12,7 @@
 
 .navbar{
     background-color: white;
+    background: linear-gradient(rgb(241, 208, 208), white);
     border-bottom: 3px solid gold;
 }
 .navbar-brand{
@@ -50,13 +51,15 @@
 /* ..............................home........................ */
 
 .banner {
-    background-image: url(b3.jpg);
+    /* background-image: url(b3.jpg); */
+background-color: white;
+background: linear-gradient(rgb(241, 208, 208), white);
 
     height: 560px;
    
 }
 .banner1 {
-    /* background-image: url(b3.jpg); */
+
     color: white;
     
   
@@ -76,8 +79,9 @@
    
 }
 .img{
-width: 500px;
-margin-top: 40px;
+width: 550px;
+margin-top: 30px;
+
 
 }
 
@@ -177,11 +181,12 @@ i{
 .ab3{
     color: black;
 }
-.ab2{
+.ab2 {
     color: black;
-    justify-content: center;
+   
    
 }
+
 .intro3{
   
     width: 50%;
@@ -195,11 +200,20 @@ i{
    
 }
 .imga{
-    width: 310px;
+    width: 280px;
     margin-left: 130px;
-    box-shadow: 0 0 20px black;
-    border-radius: 50px;
+    box-shadow: 0 0 15px black;
+    border-radius: 20px;
     margin-top: 15px;
+}
+.imga:hover{
+    transition: 0.5s;
+    padding: 10px;
+    background: linear-gradient(red,white);
+}
+
+.ab2{
+    text-align: justify;
 }
 
 .btn2 {
@@ -297,9 +311,9 @@ p{
     background-color: yellow;
     height: 300px;
     float: left;
-    border-radius: 40px;
+    border-radius: 60px 60px 0 0;
    
-    box-shadow: 0 0 20px black;
+   
     
 }
 .p2{
@@ -309,8 +323,8 @@ p{
     float: left;
     /* background-image: url(b3.jpg); */
     background-color: yellow;
-    border-radius: 40px;
-    box-shadow: 0 0 20px black;
+    border-radius: 60px 60px 0 0;
+   
     margin-left: 80px;
 }
 .p3{
@@ -318,16 +332,16 @@ p{
     width: 28%;
     height: 300px;
     float: left;
-
+    border-radius: 60px 60px 0 0;
     /* background-image: url(b3.jpg); */
     background-color: yellow;
-    border-radius: 40px;
-    box-shadow: 0 0 20px black;
+   
     margin-left: 90px;
 }
 
 .is{
-    border-radius: 40px;
+    
+    border-radius: 30px;
     margin-left: 35px;
     margin-top: 40px;
     border: 3px solid
@@ -522,7 +536,7 @@ p{
 .cme{
     color: white;
     text-shadow: 0 0 5px black;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -595,6 +609,16 @@ border: 2px solid black;
     box-shadow: 0 0 10px black;
 }
 
+.peo2{
+    height: 360px;
+    background-color: white;
+    margin-top: 50px;
+}
+.is2{
+    width: 240px;
+    height: 120px;
+    margin-left: 35px;
+}
 /* ---------------------------responsive for phone--------- */
 @media only screen and (max-width: 400px) {
    .mainbody{
@@ -660,16 +684,22 @@ border: 2px solid black;
     float: left;
     width: 100%;
     padding: 8px;
-  
+
    
 }
 
+.ab2{
+    text-align: justify;
+
+}
 .nav ul li a:hover::after {
     width: 50%;
 }
 .imga{
-    width: 300px;
-    margin-left: 30px;
+    width: 280px;
+    margin-left: 50px;
+   
+  
 }
 .btn2{
     display: none;
@@ -739,6 +769,11 @@ border: 2px solid black;
     
 }
 
+.peo2{
+    height: 1000px;
+    background-color: white;
+    margin-top: 22px;
+}
 .p1{
     width: 90%;
     height: 300px;
@@ -859,7 +894,7 @@ margin-left: 100px;
  }
 .cc1{
    
-    font-size: 15px;
+    font-size: 14px;
 }
 .letstalk{
 
