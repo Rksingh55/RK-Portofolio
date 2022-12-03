@@ -624,18 +624,21 @@ border: 2px solid black;
 /* ---------------------------responsive for phone--------- */
 
 
+
+
 @media only screen and (max-width: 400px) {
-    .mainbody{
-        overflow: hidden;
-    }
+    
+   
 
    .banner1{
     position: fixed;
+    overflow: hidden;
     
    }
    .navbar{
     background-color: white;
     border-bottom: 2px solid gold;
+    overflow: hidden;
 }
 .navbar-brand{
     font-weight: bold;
@@ -645,6 +648,7 @@ border: 2px solid black;
 
    .banner {
     height: 700px;
+    overflow: hidden;
    }
 
     .intro1{
@@ -682,6 +686,7 @@ border: 2px solid black;
       /* ------------aabout------ */
 .about{
     height: 700px;
+    overflow: hidden;
 }
 .intro4{
     
@@ -732,6 +737,7 @@ border: 2px solid black;
 
 /* --------------skills-------------- */
 .skills{
+    overflow: hidden;
     height: 850px;
 }
 
@@ -770,6 +776,7 @@ border: 2px solid black;
 
 .project{
     height: 1100px;
+    overflow: hidden;
     
 }
 
@@ -871,7 +878,7 @@ border: 2px solid black;
     width: 300px;
 }
 .con{
- 
+    overflow: hidden;
 background:none;
     height: 900px; 
     box-shadow: none;
@@ -880,6 +887,7 @@ background:none;
 .contacthead{
  
    box-shadow: none;
+   overflow: hidden;
     height: 720px;
 }
 
