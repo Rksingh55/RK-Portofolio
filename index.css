@@ -167,7 +167,8 @@ h5 a{
     margin-left: 30%;
 }
 i{
-    color:blue;
+    color:black;
+    font-size: 22px;
     margin-left: 10px;
 }
 
@@ -197,13 +198,13 @@ i{
 }
 .intro4{
     float: left;
-    width: 50%;
+    width: 40%;
     margin-top: 30px;
    
 }
 .imga{
     width: 280px;
-    margin-left: 130px;
+    margin-left: 190px;
     box-shadow: 0 0 15px black;
     border-radius: 20px;
     margin-top: 15px;
@@ -887,6 +888,7 @@ background:none;
 }
 .contacthead{
  
+    margin-top: 50px;
    box-shadow: none;
    overflow: hidden;
     height: 720px;
@@ -935,7 +937,7 @@ margin-left: 100px;
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -944,13 +946,14 @@ span {
 }
 .foot{
     overflow: hidden;
-    height: 18px;
+    /* height: 18px; */
 }
 .icon2{
-    font-size: 30px;
+   
    
 }
 .icon2 i{
+    font-size: 30px;
     color: red;
     text-shadow: 2px 2px 2px  white;
 }
@@ -958,6 +961,7 @@ span {
 .m1{
     background-color: black;
     height: 20px;
+   
 }
 
 
